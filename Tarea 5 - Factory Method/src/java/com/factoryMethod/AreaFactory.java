@@ -10,7 +10,7 @@ package com.factoryMethod;
  */
 public class AreaFactory {
     
-    public double obtenerArea(double v1, double v2, double v3, TipoFigura tipoFigura){
+    public double calcularArea(double v1, double v2, double v3, TipoFigura tipoFigura){
         double area = 0;
         
         switch(tipoFigura){

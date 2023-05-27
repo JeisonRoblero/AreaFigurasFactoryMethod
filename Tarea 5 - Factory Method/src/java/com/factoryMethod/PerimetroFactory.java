@@ -10,7 +10,7 @@ package com.factoryMethod;
  */
 public class PerimetroFactory {
     
-    public double obtenerPerimetro(double v1, double v2, double v3, double v4, TipoFigura tipoFigura){
+    public double calcularPerimetro(double v1, double v2, double v3, double v4, TipoFigura tipoFigura){
         double perimetro = 0;
         
         switch(tipoFigura){
